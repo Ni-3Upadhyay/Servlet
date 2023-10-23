@@ -48,9 +48,31 @@
     <url-pattern>/register</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>firstServlet</servlet-name>
+    <servlet-class>RequestDispatcher.firstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>firstServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>secondServlet</servlet-name>
+    <servlet-class>RequestDispatcher.secondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>secondServlet</servlet-name>
+    <url-pattern>/servlet2</url-pattern>
+  </servlet-mapping>
+
+
+
 
   <display-name>Archetype Created Web Application</display-name>
   <welcome-file-list>
-    <welcome-file>registration.html</welcome-file>
+    <welcome-file>RequestDispatcher.html</welcome-file>
   </welcome-file-list>
 </web-app>

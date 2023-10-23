@@ -9,6 +9,11 @@ import java.io.PrintWriter;
 
 public class RegistrationServlet extends HttpServlet {
 
+//    @Override
+//    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        doPost(req,resp);
+//    }
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        Here whatever the userInput is stored in req
