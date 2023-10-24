@@ -1,13 +1,17 @@
-package RequestDispatcher;
+// @WebServlet is used for mapping
+
+package AnnotationBased;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+@WebServlet("/webServlet")                          // The path to access this page is given in place of xml mapping
 public class firstServlet extends HttpServlet {
 
     @Override
@@ -25,8 +29,14 @@ public class firstServlet extends HttpServlet {
         if(email.equals("umesh4n9@gmail.com")  && password.equals("password")){
 //            redirect to next page
 
-            dispatcher = req.getRequestDispatcher("servlet2");
-            dispatcher.forward(req, resp);
+//    ******   this is used to redirect to next page the data is transfer as well  **********  //
+
+//            dispatcher = req.getRequestDispatcher("servlet2");
+//            dispatcher.forward(req, resp);
+
+//   ******    this is used to redirect to next page the data is not transfered because it creates a new object at every call
+
+            resp.sendRedirect("servlet2");
 
         }else {
 //            redirect to same page

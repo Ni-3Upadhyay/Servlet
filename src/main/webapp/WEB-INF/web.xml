@@ -8,71 +8,73 @@
          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-  <servlet>
-    <servlet-name>first</servlet-name>
-    <servlet-class>Servlet.FirstProgram</servlet-class>
-  </servlet>
+<!--  <servlet>-->
+<!--    <servlet-name>first</servlet-name>-->
+<!--    <servlet-class>Servlet.FirstProgram</servlet-class>-->
+<!--  </servlet>-->
 
-  <servlet-mapping>
-    <servlet-name>first</servlet-name>
-    <url-pattern>/app</url-pattern>
-  </servlet-mapping>
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>first</servlet-name>-->
+<!--    <url-pattern>/app</url-pattern>-->
+<!--  </servlet-mapping>-->
 
-  <servlet>
-    <servlet-name>Second</servlet-name>
-    <servlet-class>Servlet.SecondProgram</servlet-class>
-  </servlet>
+<!--  <servlet>-->
+<!--    <servlet-name>Second</servlet-name>-->
+<!--    <servlet-class>Servlet.SecondProgram</servlet-class>-->
+<!--  </servlet>-->
 
-  <servlet-mapping>
-    <servlet-name>Second</servlet-name>
-    <url-pattern>/app2</url-pattern>
-  </servlet-mapping>
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>Second</servlet-name>-->
+<!--    <url-pattern>/app2</url-pattern>-->
+<!--  </servlet-mapping>-->
 
-  <servlet>
-    <servlet-name>Third</servlet-name>
-    <servlet-class>Servlet.ThirdProgram</servlet-class>
-  </servlet>
+<!--  <servlet>-->
+<!--    <servlet-name>Third</servlet-name>-->
+<!--    <servlet-class>Servlet.ThirdProgram</servlet-class>-->
+<!--  </servlet>-->
 
-  <servlet-mapping>
-    <servlet-name>Third</servlet-name>
-    <url-pattern>/app3</url-pattern>
-  </servlet-mapping>
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>Third</servlet-name>-->
+<!--    <url-pattern>/app3</url-pattern>-->
+<!--  </servlet-mapping>-->
 
-  <servlet>
-    <servlet-name>registration</servlet-name>
-    <servlet-class>Servlet.RegistrationServlet</servlet-class>
-  </servlet>
+<!--  <servlet>-->
+<!--    <servlet-name>registration</servlet-name>-->
+<!--    <servlet-class>Servlet.RegistrationServlet</servlet-class>-->
+<!--  </servlet>-->
 
-  <servlet-mapping>
-    <servlet-name>registration</servlet-name>
-    <url-pattern>/register</url-pattern>
-  </servlet-mapping>
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>registration</servlet-name>-->
+<!--    <url-pattern>/register</url-pattern>-->
+<!--  </servlet-mapping>-->
 
-  <servlet>
-    <servlet-name>firstServlet</servlet-name>
-    <servlet-class>RequestDispatcher.firstServlet</servlet-class>
-  </servlet>
+<!--  <servlet>-->
+<!--    <servlet-name>firstServlet</servlet-name>-->
+<!--    <servlet-class>RequestDispatcher.firstServlet</servlet-class>-->
+<!--  </servlet>-->
 
-  <servlet-mapping>
-    <servlet-name>firstServlet</servlet-name>
-    <url-pattern>/login</url-pattern>
-  </servlet-mapping>
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>firstServlet</servlet-name>-->
+<!--    <url-pattern>/login</url-pattern>-->
+<!--  </servlet-mapping>-->
 
-  <servlet>
-    <servlet-name>secondServlet</servlet-name>
-    <servlet-class>RequestDispatcher.secondServlet</servlet-class>
-  </servlet>
+<!--  <servlet>-->
+<!--    <servlet-name>secondServlet</servlet-name>-->
+<!--    <servlet-class>RequestDispatcher.secondServlet</servlet-class>-->
+<!--  </servlet>-->
 
-  <servlet-mapping>
-    <servlet-name>secondServlet</servlet-name>
-    <url-pattern>/servlet2</url-pattern>
-  </servlet-mapping>
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>secondServlet</servlet-name>-->
+<!--    <url-pattern>/servlet2</url-pattern>-->
+<!--  </servlet-mapping>-->
 
 
 
 
   <display-name>Archetype Created Web Application</display-name>
   <welcome-file-list>
-    <welcome-file>RequestDispatcher.html</welcome-file>
+    <welcome-file>Parameter.html</welcome-file>
   </welcome-file-list>
 </web-app>
+
+
