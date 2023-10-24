@@ -1,3 +1,13 @@
+
+// method getParameter is used to get the values given by the user in the form.
+
+//There are mainly three methods for attribute
+
+// setAttribute() :- takes two argument name by which the value is known and the value needed to be passed to next servlet.
+// getAttribute() :- takes one argument the name of the value we need to use in next servlet.
+// removeAttribute() :- so that the next servlet won't get that attribute
+
+
 package ParameterAndArguments;
 
 import javax.servlet.RequestDispatcher;

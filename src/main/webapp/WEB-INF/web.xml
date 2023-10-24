@@ -73,7 +73,7 @@
 
   <display-name>Archetype Created Web Application</display-name>
   <welcome-file-list>
-    <welcome-file>Parameter.html</welcome-file>
+    <welcome-file>SessionTracking.html</welcome-file>
   </welcome-file-list>
 </web-app>
 
