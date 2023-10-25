@@ -73,7 +73,7 @@
 
   <display-name>Archetype Created Web Application</display-name>
   <welcome-file-list>
-    <welcome-file>UrlRewriting.html</welcome-file>
+    <welcome-file>HiddenFormField.html</welcome-file>
     <welcome-file>profile</welcome-file>
   </welcome-file-list>
 </web-app>
